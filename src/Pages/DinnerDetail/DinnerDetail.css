@@ -1,0 +1,80 @@
+.each-dinner{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.each-dinner img{
+    width: 500px;
+    order: 2;
+}
+
+.dinner-info{
+    width: 410px;
+}
+
+.dinner-info .name{
+    font-size: 49px;
+    margin-top: -13px;
+    margin-bottom: 2px;
+}
+
+.dinner-info .detail{
+    color:  cadetblue;
+    line-height: 30px;
+    margin-bottom: -33px;
+}
+
+.dinner-info .price{
+    font-size: 43px;
+    margin-bottom: 22px;
+}
+
+.dinner-info button{
+    border: none;
+    background: #e52b2b;
+    color: white;
+    padding: 10px 27px;
+    border-radius: 22px;
+    font-size: 17px;
+}
+
+.dinner-info button .cart{
+    margin-right: 11px;
+    font-size: 17px;
+}
+
+.amount-price{
+    display: flex;
+    align-items: center;
+}
+
+.amount{
+    display: flex;
+    align-items: center;
+    border: 1px solid #dcd5d5;
+    width: 92px;
+    padding: 7px 14px;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-left: 27px;
+}
+.amount input{
+    text-align: center;
+    border: none;
+    width: 56px;
+    font-size: 23px;
+    outline: none;
+}
+
+.amount .minus{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.amount .plus{
+    font-size: 40px;
+    cursor: pointer;
+}
