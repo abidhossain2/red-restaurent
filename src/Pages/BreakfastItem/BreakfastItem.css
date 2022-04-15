@@ -1,0 +1,26 @@
+.breakfast-item{
+    margin-top: 80px;
+    padding: 17px;
+    border-radius: 21px;
+    cursor: pointer;
+}
+.breakfast-item:hover{
+    box-shadow: 0px 0px 9px 3px #b3cece;
+}
+.breakfast-item img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.breakfast-item p{
+    text-align: center;
+}
+
+.breakfast-item .detail{
+    color: #6c9595;
+}
+
+.breakfast-item .price{
+    font-size: 21px;
+}

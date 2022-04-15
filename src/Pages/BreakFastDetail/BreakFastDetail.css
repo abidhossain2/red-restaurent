@@ -1,0 +1,47 @@
+.each-breakfast{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.each-breakfast img{
+    width: 500px;
+    order: 2;
+}
+
+.breakfast-info{
+    width: 410px;
+}
+
+.breakfast-info .name{
+    font-size: 49px;
+    margin-top: -13px;
+    margin-bottom: 2px;
+}
+
+.breakfast-info .detail{
+    color:  cadetblue;
+    line-height: 30px;
+    margin-bottom: -33px;
+}
+
+.breakfast-info .price{
+    font-size: 43px;
+    margin-bottom: 22px;
+}
+
+.breakfast-info button{
+    border: none;
+    background: #e52b2b;
+    color: white;
+    padding: 10px 27px;
+    border-radius: 22px;
+    font-size: 17px;
+}
+
+.breakfast-info button .cart{
+    margin-right: 11px;
+    font-size: 17px;
+}

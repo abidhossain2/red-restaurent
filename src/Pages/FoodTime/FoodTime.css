@@ -1,0 +1,12 @@
+.food-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-link{
+    margin: 37px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
